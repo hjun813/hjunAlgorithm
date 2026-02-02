@@ -1,3 +1,5 @@
+import sys
+input = sys.stdin.readline
 N, M = map(int, input().split())
 mapInfo = []
 dir = [[0,1],[0,-1],[1,0],[-1,0]]
